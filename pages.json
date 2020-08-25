@@ -1,0 +1,388 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		//     "path" : "pages/index/startPage/startPage",
+		//     "style" : {
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "",
+		// 		"app-plus": {
+		// 			"animationType": "slide-in-bottom",
+		// 			"titleNView": false
+		// 		}
+		// 	}
+		// },
+		{
+		    "path" : "pages/index/guidePage/guidePage",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false,
+					"background": "#0c1524"
+				}
+			}
+		},	{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+            "path" : "pages/transaction/transaction",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/game",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/creatWallet/creatWallet",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/backupTips/backupTips",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/backupKeyWords/backupKeyWords",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/verifyBackup/verifyBackup",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/importWallet/importWallet",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/more/more",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/messageCenter/messageCenter",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/ReceivePayment/ReceivePayment",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/addWallet/addWallet",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/switchWallet/switchWallet",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/transfer/transfer",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/addressWallet/addressWallet",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/addWalletAddress/addWalletAddress",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/officialAnnouncement/officialAnnouncement",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/transaction/marketPlace/marketPlace",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/transaction/orderRecord/orderRecord",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			
+            "path" : "pages/transaction/viewMarket/viewMarket",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+        ,{
+            "path" : "pages/game/accountBalance/accountBalance",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+		,{
+            "path" : "pages/game/topUp/topUp",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/securitySettings/securitySettings",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+		,{
+            "path" : "pages/game/withdrawal/withdrawal",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/securitySettings/updateLoginPwd/updateLoginPwd",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/orePool/orePool",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/securitySettings/updatePayPwd/updatePayPwd",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/securitySettings/retrievePwd/retrievePwd",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/securitySettings/exportWord/exportWord",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/mine/feedBack/feedBack",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+		,{
+			"path" : "pages/game/promotion/promotion",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+        ,{
+            "path" : "pages/mine/feedBack/myAdvisory/myAdvisory",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+		,{
+            "path" : "pages/game/topUp/topUpRecord/topUpRecord",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+        ,{
+            "path" : "pages/index/TransferRecords/TransferRecords",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        },{
+			"path" : "pages/index/collectionRecord/collectionRecord",
+			"style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+        ,{
+            "path" : "pages/game/withdrawal/withdrawalRecord/withdrawalRecord",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/rewardRules/rewardRules",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/communityLog/communityLog",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/communityRank/communityRank",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/share/share",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/gameCenter/gameCenter",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"titleNView": false
+			}
+        }
+        ,{
+            "path" : "pages/game/gameCenter/gameLowTable/gameLowTable",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"titleNView": false
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/myExtension/myExtension",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/myLog/myLog",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/game/promotion/myRank/myRank",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FFC950",
+		"borderStyle": "black",
+		"backgroundColor": "#2D050A",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/index.png",
+				"selectedIconPath": "static/tabBar/index1.png",
+				"text": "资产"
+			},
+			{
+				"pagePath": "pages/transaction/transaction",
+				"iconPath": "static/tabBar/transition.png",
+				"selectedIconPath": "static/tabBar/transition1.png",
+				"text": "交易"
+			},
+			{
+				"pagePath": "pages/game/game",
+				"iconPath": "static/tabBar/game.png",
+				"selectedIconPath": "static/tabBar/game1.png",
+				"text": "游戏"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabBar/mine.png",
+				"selectedIconPath": "static/tabBar/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
